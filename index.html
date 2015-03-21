@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Create Elegant Modal Window Using CSS Scale Transform</title>
+	<meta name="description" content="Tutorial : Create Elegant Modal Window Using CSS Scale Transform">
+	<meta name="author" content="Hidayat Sagita">
+	<link rel="stylesheet" href="demo.css?v=2">
+</head>
+<body>
+	
+	<h2>Elegant Modal Window Using CSS Scale Transform</h2>
+	
+	<input type="button" value="Zoom In Modal Window" class="button" data-type="zoomin" />
+	<input type="button" value="Zoom Out Modal Window" class="button" data-type="zoomout" />
+	
+	<div class="overlay-container">
+		<div class="window-container zoomin">
+			<h3>Hello I'm zoom in modal window</h3> 
+			I'm coming using scale transform, using transform: scale() <br/>
+			From <strong>scale(1.2)</strong> to scale(1) with transition property make me looks like <strong>come from you</strong> :) <br/>
+			<span class="close">Close Me</span>
+		</div>
+		<div class="window-container zoomout">
+			<h3>Hello I'm zoom out modal window </h3> 
+			I'm coming using scale transform, using transform: scale() <br/>
+			From <strong>scale(0.7)</strong> to scale(1) with transition property make me looks like <strong>come to you</strong> :) <br/>
+			<span class="close">Close Me</span>
+		</div>
+	</div>
+	
+	<script src="//code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="demo.js"></script>
+	
+</body>
+</html>
